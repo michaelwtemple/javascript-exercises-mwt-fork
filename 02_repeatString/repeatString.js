@@ -1,4 +1,8 @@
 const repeatString = function(text, count) {
+    if (count < 0) {
+        return "ERROR";
+    }
+    
     return text.repeat(count);
 };
 
