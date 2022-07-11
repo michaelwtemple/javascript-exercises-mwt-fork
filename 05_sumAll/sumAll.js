@@ -1,5 +1,4 @@
-const sumAll = function() {
-
+const sumAll = function(start, end) {
 };
 
 // Do not edit below this line
