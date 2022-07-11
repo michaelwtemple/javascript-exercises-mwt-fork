@@ -5,6 +5,10 @@ const sumAll = function(start, end) {
         return 'ERROR';
     }
 
+    if (!Number.isSafeInteger(start) || !Number.isSafeInteger(end)) {
+        return 'ERROR';
+    }
+
     if (start > end) {
         let holder = start;
         start = end;
